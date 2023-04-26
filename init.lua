@@ -232,6 +232,10 @@ vim.o.termguicolors = true
 -- Hide mode indicator
 vim.o.showmode = false
 
+-- Specify where new splits should appear
+vim.o.splitbelow = true
+vim.o.splitright = true
+
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
